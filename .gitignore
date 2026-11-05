@@ -1,0 +1,34 @@
+```gitignore
+# Data
+data/
+*.csv
+*.pkl
+*.joblib
+*.zip
+*.gz
+*.tar
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Secrets
+.env
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
